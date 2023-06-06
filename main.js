@@ -3,6 +3,7 @@ const appointmentList = document.getElementById("appointment-list");
 const updateBtn = document.getElementById("update");
 
 updateBtn.style.display = "none";
+
 let appointments = [
   { name: "venky", email: "v@gmail.com", phone: "77668", date: "2023-06-01" },
   { name: "ram", email: "r@gmail.com", phone: "897608", date: "2023-05-01" },
